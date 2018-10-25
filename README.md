@@ -30,8 +30,8 @@ Websites that do not need to process many requests at a time will be able to get
 
 ## What is runtime?
 
-The runtime of a program is any point in time when that program is being run. The runtime environment which is closely related to the runtime, is essentially the virtual machine in which the code is being run in. This environment includes the standard libraries that are installed on that machine and used by the code.
+In terms of web development runtime can refer to many different things. One way of classifying runtime is any point in time when that program is being run. The runtime environment, which is closely related to this definition of runtime, is essentially the compiler in which the code is being run in. This environment includes the standard libraries that are installed on that machine and used by the code. A third definition of runtime is an algorithmic expression that describes the time it takes for a program to complete in terms of the variables of the program.
 
 ## How many instances of the the databases connected to the server application are created?
 
-This is determined by the number of instances of the server-side code. Each instance of server-side code will need its own connection to the database to process requests.
+It depends, if there are several servers running code this could increase the number of instances of requests. Also, the manner in which the server side code is programmed to handle requests will also affect the number of instances of connections. 
